@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def jared(request):
+    return render(request, 'jobs/home.html')
